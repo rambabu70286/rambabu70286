@@ -1,0 +1,193 @@
+<html>
+    <hend>
+        <title>My Task No</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.style.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="style.css"/>
+    </hend>
+    <body>
+        <div>
+        
+            <p>based on the evolutionary ideas of natural selection and genetic processes of biological
+organisms. As the natural populations evolve according to the principles of natural
+selection and “survival of the fittest” first laid down by Charles Darwin, so by simulating
+this process GAs are able to evolve solutions to real-world problems, if they have been
+suitably encoded (Holland, 1975). Feature selection through GA-based search along with
+an ANN classifier has been used to classify “difficult-to-diagnose” microcalcifications
+from mammography (Dhawan, Chitre, Kaiser-Bonasso, & Moskowitz, 1996). The use of
+similar procedures has also been reported for the recognition of skin tumours and
+                endothelial cells (Yamani, Khiani & Farag, 1997)</p>
+           <h5>Classification</h5>
+            <hr>
+            <p>The role of the classification module is to decide about the inclusion of the feature vectors
+appearing at its input into a category or class, among a set of predefined classes. The
+development and implementation of the classification module may be based either on
+supervised or unsupervised training methods.</p>
+            <p>In supervised training, a set of characteristic vectors is considered, known as training
+set. For each vector in the training set the class to which it belongs, is known a priori.
+The vectors in the training set are used to train the classifier, which can subsequently
+classify any vector appearing to its input into one of the available classes (Duda, Hart
+& Stork, 2000).</p>
+            <p>In unsupervised training a set of characteristic vectors is examined and the class each
+vector belongs to is unknown. Classification of vectors in the available categories is done
+automatically during the formation of the classifier. Subsequently, as before, each
+characteristic vector is classified in one of the categories (Duda, et al., 2000).</p>
+            <h6>Supervised Classification</h6>
+            <p>The most common supervised classifiers include Bayes classifiers, nearest neighbour
+classifiers, decision trees, and artificial neural networks (Jain et al., 2000). In Bayes
+classifiers, each feature belongs to the class with the highest a posteriori estimated
+probability. In nearest neighbour classifiers, features are classified based on their
+relative similarity. In decision trees, classification is the result of a sequence of logical
+steps.</p>
+            <p>One of the most popular supervised classification methods is based on the use of ANNs,
+which are computational modelling tools that have recently emerged and found extensive
+acceptance in many disciplines for modelling complex real-world problems. ANNs may
+be defined as structures comprised of densely interconnected adaptive simple processing elements (called artificial neurons or nodes) that are capable of performing massively
+parallel computations for data processing and knowledge representation (Schalkoff,
+1997). ANNs are applied to problems that cannot be described with rules or mathematical
+formulas.</p>
+            <p>The fundamental element of each ANN is the neuron. Each neuron is the synapse of its
+inputs, i.e. the sum of the products of the inputs with appropriate weighing coefficients.The inputs can be external signals or the outputs of other neurons. Subsequently, the
+sum of the inputs with the corresponding weights is transformed with a linear or a nonlinear transform function to produce the neuron output. Neurons are organised in layers.
+The neurons of the input layer have only one input. The outputs of the neurons of the
+input layer are conveyed to neurons of intermediate layers. The neurons of the output
+layer produce the final output of the ANN.</p>
+            <p>The ability to train an ANN consists in the adaption of weighs during the training process.
+The most commonly used procedure for training ANNs is the feedforward errorbackpropagation learning algorithm (Haykin, 1999). According to this method, each
+vector in the training set appears at the ANN input and is propagated through the
+intermediate layers toward the output layer. The response of the neurons at the output
+layer is compared with the desired response of each vector and the error is calculated.
+Subsequently, the error is backpropagated and used to re-estimate the weight of each
+neuron. The procedure is repeated for all vectors of the training set. An epoch is
+completed after all vectors have been interrogated. At the end of each successful epoch
+the total error, for all vectors of the training set, is reduced. The procedure continues until
+a criterion for the termination of the training is satisfied.</p>
+            <h5>Unsupervised Classification</h5>
+            <p>The most common unsupervised classification method is C-means. A characteristic
+vector, known as the class centre, is created for each class. Subsequently, each vector
+is assigned to the class for which the euclidean distance from the class centre is minimal.
+After all characteristic vectors are classified, the class centre is re-estimated. The
+procedure is repeated until a convergence criterion is satisfied (e.g., there is no variation
+in vector classification in two successive iterations, the reduction in the total euclidean
+distance of the vectors from the class centres is lower than a predefined threshold). The
+advantages of the method include low complexity and easy implementation. However,
+the method is sensitive to the initial estimation of the class centres and, as a result,
+convergence may appear at a local minimum of the euclidean distance of the vectors from
+the class centres.</p>
+            <p>A variation of the C-means method is the fuzzy C-means method (Bezdek, 1981). The
+difference in the two methods lies in the fact that in C-means method each vector is strictly
+assigned only to one class, whereas in fuzzy C-means method each vector belongs to all
+classes. The percentage with which each vector belongs to a class is the member function
+(Zadeh, 1965).</p>
+            <p>Although ANNs are mainly supervised classifiers, unsupervised ANNs can be used to
+cluster characteristic vectors. The most representative network of this category is the
+Self-Organising Map (SOM) ANN (Kohonen, 1989). Characteristic vectors appear at the
+ANN input and are related to the output neurons. The weights between input and output
+neurons are recursively varied (training phase) until a termination criterion is satisfied.
+SOMs are sensitive to the selection of the initial weights, because a sub-optimal solution
+may be the result of improper initial weight selection. Furthermore, convergence is
+determined by a number of parameters including the training rate and the neuron
+neighbourhood where training takes place.Unsupervised classification also includes hierarchical clustering (King, 1967), clustering
+using genetic algorithms (Goldberg, 1989), and so on</p>
+            <h2>Diagnosis of Carotid Atherosclerosis from B-Mode
+Ultrasound Images</h2>
+            <hr>
+            <p>B-mode ultrasound imaging of the carotid artery is widely used in the diagnosis of carotid
+atherosclerosis because it allows non-invasive assessment of the degree of stenosis and
+of plaque morphology. Currently, disease severity and selection of patients to be
+considered for endarterectomy, that is, surgical removal of plaque, is based on previous
+occurrence of clinical symptoms (e.g., stroke) and the degree of stenosis caused by the
+plaque. However, there is evidence that atheromatous plaques with relatively low
+stenosis degree may produce symptoms and that the majority of asymptomatic patients
+with highly stenotic atherosclerotic plaques remain asymptomatic (Inzitari, Eliasziw,
+Gates, Sharpe Chan, Meldrum, et al., 2000). To assist diagnosis of carotid atherosclerosis,
+quantitative indices characterising plaque severity may be estimated from the analysis
+of digitised ultrasound images.
+</p>
+            <p>More specifically, image texture analysis may be used to quantify plaque echogenicity,
+and movement of the carotid artery wall and plaque may be estimated from temporal image
+sequences and used as an index of plaque strain. In addition to this, automatic
+classification of atheromatous plaques into symptomatic or asymptomatic using AI
+techniques is expected to support decision-making about management of patients.
+Plaque texture may be estimated with a number of techniques and be used as input to a
+CAD system. First-order statistics have been used to characterise texture in the following
+three distinct areas of a typical B-mode ultrasound image of a diseased carotid artery
+(Figure 2): atheromatous plaque, blood and surrounding tissue (Golemati, Tegos,
+Sassano, Nikita, & Nicolaides, 2004). First order statistical features were significantly
+different in different areas of the ultrasound image. In addition to this, the fractal
+dimension was estimated using the kth nearest neighbour method in 10 symptomatic and
+nine asymptomatic carotid atheromatous plaques at different phases of the cardiac cycle,
+namely systole, diastole and average during the cardiac cycle. As shown in Table 1, the
+fractal dimension was found significantly higher in the symptomatic group (Asvestas,
+Golemati, Matsopoulos, Nikita & Nicolaides, 2002). ANOVA (ANalysis Of Variance)
+statistics demonstrated that the phase of the cardiac cycle had no systematic effect on
+the calculation of the fractal dimension. The fuzzy c-means algorithm was applied to
+classify the fractal dimension into two classes. All features corresponding to symptomatic subjects were assigned to Class 1, whereas the features of eight out of nine
+asymptomatic subjects were assigned to Class 2. Furthermore, Laws texture energy
+features have been estimated in 54 symptomatic and 54 asymptomatic plaques. Energy
+features were significantly different between symptomatic and asymptomatic plaques
+(Mougiakakou, Golemati, Gousias, Nikita, & Nicolaides, 2003b).</p>
+            <p>Figure 2. Example of a typical B-mode ultrasound image of a diseased carotid artery.
+The atheromatous plaque was outlined by an expert. The rectangles correspond to ROIs
+in blood and the surrounding muscle tissue.</p>
+            <center>
+            <img src="Screenshot%202024-01-18%20134216.png">
+                </center>
+            <p>Automatic classification of carotid plaques into symptomatic or asymptomatic based on
+texture features was achieved with a CAD system, which consists of three modules: a
+feature extraction module, where texture features are estimated based on Laws’ texture
+energy and first-order statistics, a dimensionality reduction module, where the number
+of features is reduced using ANOVA statistics, and a classifier module with an ANN,
+trained via a novel hybrid method using GAs, to recognize the type of atheromatous
+plaques (Mougiakakou, Golemati, Gousias, Nikita, & Nicolaides, 2003b). The hybrid
+method was able to select the most robust features, to automatically adjust the ANN
+architecture, and to optimise the classification performance. The developed CAD system
+achieved a total classification performance of 99 percent.
+The motion of the carotid atheromatous plaque relative to the adjacent wall may be related
+to the risk of cerebral events. A quantitative method for motion estimation was applied
+to analyse arterial wall movement from sequences of two-dimensional B-mode ultrasound
+images (Golemati, Sassano, Lever, Bharath, Dhanjil, & Nicolaides, 2003). Image speckle
+patterns were tracked between successive frames using the correlation coefficient as the</p>
+            <center>
+            <img src="Screenshot%202024-01-18%20132852.png">
+                </center>
+            <center>
+            <img src="Screenshot%202024-01-18%20134549.png">
+                </center>
+            <p>matching criterion. The results showed expected cyclical motion in the radial direction
+and some axial movement of the arterial wall. The method can be used to study further
+the axial motion of the carotid artery wall and plaque and, thus, provide useful insight
+into the mechanisms of atherosclerosis.</p>
+            <p>The combination of texture and motion information may be valuable for accurate
+diagnosis of vascular disease. ANALYSIS, a modular software system designed to assist
+interpretation of medical images may be used to analyse texture and motion from B-mode
+ultrasound images of the carotid artery (Stoitsis, Golemati, Nikita, & Nicolaides, 2004).
+Texture analysis allows the estimation of first-order statistics, second-order statistics
+(Haralick’s method), Laws’ texture energy, and the fractal dimension using the differential box-counting method.</p>
+            <p>Motion is estimated using block-matching and region tracking for rectangular ROIs along
+the surface of the plaque. The following indices of motion can be estimated for each
+plaque: (a) Maximal Surface Velocity (MSV) and (b) Maximal Relative Surface Velocity
+(MRSV), defined as the maximum of differences between maximal and minimal surface
+velocities throughout the sequence. Motion and texture features were estimated in 10
+symptomatic and nine asymptomatic carotid atheromatous plaques. After dimensionality reduction, the two strongest texture features (lowest p-value) were retained, namely
+standard deviation after convolution with Laws mask LTE and histogram width after
+convolution with Laws mask LTE. Their average values (±standard deviations) are shown
+in Table 2 together with the values of the motion features.</p>
+            <h2>Differential Diagnosis of Focal Liver Lesions from CT
+Images</h2>
+            <hr>
+            <p>One of the most common and robust imaging techniques for the detection of hepatic
+lesions is CT (Taylor & Ros, 1998). Although the quality of CT images has been
+significantly improved during the last years, some cases are difficult to accurately
+diagnose. In these cases, the diagnosis has to be confirmed by administration of contrast
+agents or invasive procedures (biopsies). In order to assist clinicians in diagnosis, and
+reduce the number of required biopsies, CAD systems can be employed for the
+characterisation and classification of liver tissue. A number of approaches have been
+proposed based on different image characteristics, such as texture features, from
+ultrasound B-scan and CT images. Texture analysis of liver CT images based on the
+Spatial Gray Level Dependence Matrix (SGLDM), the Gray Level Run Length Method
+                (GLRLM) and the Gray Level Difference Method (GLDM) has been used by various</p>
+        </div>
+    </body>
+</html>
